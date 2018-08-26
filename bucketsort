@@ -1,0 +1,478 @@
+objc[48198]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java (0x10a7514c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10b73e4e0). One of the two will be used. Which one is undefined.
+# JMH version: 1.20
+# VM version: JDK 1.8.0_51, VM 25.51-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=189341359359348 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57548:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test.FirstBenchmark.readDic
+
+# Run progress: 0.00% complete, ETA 00:01:00
+# Fork: 1 of 1
+objc[48199]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x10cd7c4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10e5824e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.002 ops/ms
+# Warmup Iteration   3: 0.003 ops/ms
+# Warmup Iteration   4: 0.003 ops/ms
+# Warmup Iteration   5: 0.003 ops/ms
+Iteration   1: 0.003 ops/ms
+Iteration   2: 0.003 ops/ms
+Iteration   3: 0.003 ops/ms
+Iteration   4: 0.003 ops/ms
+Iteration   5: 0.003 ops/ms
+
+
+Result "test.FirstBenchmark.readDic":
+  0.003 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.003, 0.003, 0.003), stdev = 0.001
+  CI (99.9%): [0.002, 0.004] (assumes normal distribution)
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_51, VM 25.51-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=189341359359348 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57548:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test.FirstBenchmark.readDicinsert
+
+# Run progress: 16.66% complete, ETA 00:01:10
+# Fork: 1 of 1
+objc[48204]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x10dfe74c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10e06b4e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 0.001 ops/ms
+# Warmup Iteration   2: 0.003 ops/ms
+# Warmup Iteration   3: 0.003 ops/ms
+# Warmup Iteration   4: 0.003 ops/ms
+# Warmup Iteration   5: 0.003 ops/ms
+Iteration   1: 0.004 ops/ms
+Iteration   2: 0.004 ops/ms
+Iteration   3: 0.003 ops/ms
+Iteration   4: 0.004 ops/ms
+Iteration   5: 0.004 ops/ms
+
+
+Result "test.FirstBenchmark.readDicinsert":
+  0.004 ±(99.9%) 0.001 ops/ms [Average]
+  (min, avg, max) = (0.003, 0.004, 0.004), stdev = 0.001
+  CI (99.9%): [0.003, 0.004] (assumes normal distribution)
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_51, VM 25.51-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=189341359359348 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57548:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.FirstBenchmark.readDic
+
+# Run progress: 33.32% complete, ETA 00:00:54
+# Fork: 1 of 1
+objc[48207]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x10ced34c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10cf574e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 719.076 ms/op
+# Warmup Iteration   2: 612.703 ms/op
+# Warmup Iteration   3: 348.246 ms/op
+# Warmup Iteration   4: 355.385 ms/op
+# Warmup Iteration   5: 326.330 ms/op
+Iteration   1: 331.159 ms/op
+Iteration   2: 301.970 ms/op
+Iteration   3: 317.807 ms/op
+Iteration   4: 315.838 ms/op
+Iteration   5: 289.299 ms/op
+
+
+Result "test.FirstBenchmark.readDic":
+  311.215 ±(99.9%) 61.742 ms/op [Average]
+  (min, avg, max) = (289.299, 311.215, 331.159), stdev = 16.034
+  CI (99.9%): [249.472, 372.957] (assumes normal distribution)
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_51, VM 25.51-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=189341359359348 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57548:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.FirstBenchmark.readDicinsert
+
+# Run progress: 49.98% complete, ETA 00:00:40
+# Fork: 1 of 1
+objc[48210]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x103c604c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x103ce44e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 961.534 ms/op
+# Warmup Iteration   2: 341.061 ms/op
+# Warmup Iteration   3: 307.711 ms/op
+# Warmup Iteration   4: 293.446 ms/op
+# Warmup Iteration   5: 270.746 ms/op
+Iteration   1: 275.901 ms/op
+Iteration   2: 292.322 ms/op
+Iteration   3: 287.505 ms/op
+Iteration   4: 261.012 ms/op
+Iteration   5: 289.622 ms/op
+
+
+Result "test.FirstBenchmark.readDicinsert":
+  281.272 ±(99.9%) 49.834 ms/op [Average]
+  (min, avg, max) = (261.012, 281.272, 292.322), stdev = 12.942
+  CI (99.9%): [231.438, 331.107] (assumes normal distribution)
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_51, VM 25.51-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=189341359359348 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57548:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: test.FirstBenchmark.readDic
+
+# Run progress: 66.64% complete, ETA 00:00:26
+# Fork: 1 of 1
+objc[48215]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x1026f74c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10277b4e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 753.926 ms/op
+# Warmup Iteration   2: 613.155 ms/op
+# Warmup Iteration   3: 353.894 ±(99.9%) 507.214 ms/op
+# Warmup Iteration   4: 354.419 ±(99.9%) 1368.659 ms/op
+# Warmup Iteration   5: 343.409 ±(99.9%) 1125.703 ms/op
+Iteration   1: 335.413 ±(99.9%) 326.597 ms/op
+                 readDic·p0.00:   260.571 ms/op
+                 readDic·p0.50:   354.681 ms/op
+                 readDic·p0.90:   371.720 ms/op
+                 readDic·p0.95:   371.720 ms/op
+                 readDic·p0.99:   371.720 ms/op
+                 readDic·p0.999:  371.720 ms/op
+                 readDic·p0.9999: 371.720 ms/op
+                 readDic·p1.00:   371.720 ms/op
+
+Iteration   2: 336.593 ±(99.9%) 1190.175 ms/op
+                 readDic·p0.00:   264.765 ms/op
+                 readDic·p0.50:   352.846 ms/op
+                 readDic·p0.90:   392.167 ms/op
+                 readDic·p0.95:   392.167 ms/op
+                 readDic·p0.99:   392.167 ms/op
+                 readDic·p0.999:  392.167 ms/op
+                 readDic·p0.9999: 392.167 ms/op
+                 readDic·p1.00:   392.167 ms/op
+
+Iteration   3: 339.389 ±(99.9%) 1235.930 ms/op
+                 readDic·p0.00:   267.911 ms/op
+                 readDic·p0.50:   347.603 ms/op
+                 readDic·p0.90:   402.653 ms/op
+                 readDic·p0.95:   402.653 ms/op
+                 readDic·p0.99:   402.653 ms/op
+                 readDic·p0.999:  402.653 ms/op
+                 readDic·p0.9999: 402.653 ms/op
+                 readDic·p1.00:   402.653 ms/op
+
+Iteration   4: 333.709 ±(99.9%) 1188.974 ms/op
+                 readDic·p0.00:   260.833 ms/op
+                 readDic·p0.50:   353.894 ms/op
+                 readDic·p0.90:   386.400 ms/op
+                 readDic·p0.95:   386.400 ms/op
+                 readDic·p0.99:   386.400 ms/op
+                 readDic·p0.999:  386.400 ms/op
+                 readDic·p0.9999: 386.400 ms/op
+                 readDic·p1.00:   386.400 ms/op
+
+Iteration   5: 331.481 ±(99.9%) 280.571 ms/op
+                 readDic·p0.00:   270.008 ms/op
+                 readDic·p0.50:   344.195 ms/op
+                 readDic·p0.90:   367.526 ms/op
+                 readDic·p0.95:   367.526 ms/op
+                 readDic·p0.99:   367.526 ms/op
+                 readDic·p0.999:  367.526 ms/op
+                 readDic·p0.9999: 367.526 ms/op
+                 readDic·p1.00:   367.526 ms/op
+
+
+
+Result "test.FirstBenchmark.readDic":
+  N = 17
+  mean =    335.097 ±(99.9%) 48.460 ms/op
+
+  Histogram, ms/op:
+    [200.000, 225.000) = 0 
+    [225.000, 250.000) = 0 
+    [250.000, 275.000) = 5 
+    [275.000, 300.000) = 0 
+    [300.000, 325.000) = 0 
+    [325.000, 350.000) = 2 
+    [350.000, 375.000) = 7 
+    [375.000, 400.000) = 2 
+    [400.000, 425.000) = 1 
+    [425.000, 450.000) = 0 
+    [450.000, 475.000) = 0 
+
+  Percentiles, ms/op:
+      p(0.0000) =    260.571 ms/op
+     p(50.0000) =    353.894 ms/op
+     p(90.0000) =    394.265 ms/op
+     p(95.0000) =    402.653 ms/op
+     p(99.0000) =    402.653 ms/op
+     p(99.9000) =    402.653 ms/op
+     p(99.9900) =    402.653 ms/op
+     p(99.9990) =    402.653 ms/op
+     p(99.9999) =    402.653 ms/op
+    p(100.0000) =    402.653 ms/op
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_51, VM 25.51-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=189341359359348 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57548:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: test.FirstBenchmark.readDicinsert
+
+# Run progress: 83.31% complete, ETA 00:00:13
+# Fork: 1 of 1
+objc[48218]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x105de24c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x105e664e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 933.233 ms/op
+# Warmup Iteration   2: 337.117 ±(99.9%) 187.289 ms/op
+# Warmup Iteration   3: 307.692 ±(99.9%) 315.019 ms/op
+# Warmup Iteration   4: 278.594 ±(99.9%) 242.884 ms/op
+# Warmup Iteration   5: 336.680 ±(99.9%) 1289.731 ms/op
+Iteration   1: 258.015 ±(99.9%) 195.732 ms/op
+                 readDicinsert·p0.00:   234.619 ms/op
+                 readDicinsert·p0.50:   247.464 ms/op
+                 readDicinsert·p0.90:   302.514 ms/op
+                 readDicinsert·p0.95:   302.514 ms/op
+                 readDicinsert·p0.99:   302.514 ms/op
+                 readDicinsert·p0.999:  302.514 ms/op
+                 readDicinsert·p0.9999: 302.514 ms/op
+                 readDicinsert·p1.00:   302.514 ms/op
+
+Iteration   2: 274.203 ±(99.9%) 279.736 ms/op
+                 readDicinsert·p0.00:   236.716 ms/op
+                 readDicinsert·p0.50:   271.188 ms/op
+                 readDicinsert·p0.90:   317.719 ms/op
+                 readDicinsert·p0.95:   317.719 ms/op
+                 readDicinsert·p0.99:   317.719 ms/op
+                 readDicinsert·p0.999:  317.719 ms/op
+                 readDicinsert·p0.9999: 317.719 ms/op
+                 readDicinsert·p1.00:   317.719 ms/op
+
+Iteration   3: 286.982 ±(99.9%) 361.848 ms/op
+                 readDicinsert·p0.00:   235.405 ms/op
+                 readDicinsert·p0.50:   282.460 ms/op
+                 readDicinsert·p0.90:   347.603 ms/op
+                 readDicinsert·p0.95:   347.603 ms/op
+                 readDicinsert·p0.99:   347.603 ms/op
+                 readDicinsert·p0.999:  347.603 ms/op
+                 readDicinsert·p0.9999: 347.603 ms/op
+                 readDicinsert·p1.00:   347.603 ms/op
+
+Iteration   4: 300.417 ±(99.9%) 387.067 ms/op
+                 readDicinsert·p0.00:   245.367 ms/op
+                 readDicinsert·p0.50:   299.106 ms/op
+                 readDicinsert·p0.90:   358.089 ms/op
+                 readDicinsert·p0.95:   358.089 ms/op
+                 readDicinsert·p0.99:   358.089 ms/op
+                 readDicinsert·p0.999:  358.089 ms/op
+                 readDicinsert·p0.9999: 358.089 ms/op
+                 readDicinsert·p1.00:   358.089 ms/op
+
+Iteration   5: 256.573 ±(99.9%) 156.344 ms/op
+                 readDicinsert·p0.00:   236.454 ms/op
+                 readDicinsert·p0.50:   249.168 ms/op
+                 readDicinsert·p0.90:   291.504 ms/op
+                 readDicinsert·p0.95:   291.504 ms/op
+                 readDicinsert·p0.99:   291.504 ms/op
+                 readDicinsert·p0.999:  291.504 ms/op
+                 readDicinsert·p0.9999: 291.504 ms/op
+                 readDicinsert·p1.00:   291.504 ms/op
+
+
+
+Result "test.FirstBenchmark.readDicinsert":
+  N = 20
+  mean =    275.238 ±(99.9%) 37.784 ms/op
+
+  Histogram, ms/op:
+    [200.000, 212.500) = 0 
+    [212.500, 225.000) = 0 
+    [225.000, 237.500) = 5 
+    [237.500, 250.000) = 5 
+    [250.000, 262.500) = 2 
+    [262.500, 275.000) = 0 
+    [275.000, 287.500) = 0 
+    [287.500, 300.000) = 1 
+    [300.000, 312.500) = 2 
+    [312.500, 325.000) = 2 
+    [325.000, 337.500) = 0 
+    [337.500, 350.000) = 2 
+    [350.000, 362.500) = 1 
+    [362.500, 375.000) = 0 
+    [375.000, 387.500) = 0 
+
+  Percentiles, ms/op:
+      p(0.0000) =    234.619 ms/op
+     p(50.0000) =    250.348 ms/op
+     p(90.0000) =    347.446 ms/op
+     p(95.0000) =    357.564 ms/op
+     p(99.0000) =    358.089 ms/op
+     p(99.9000) =    358.089 ms/op
+     p(99.9900) =    358.089 ms/op
+     p(99.9990) =    358.089 ms/op
+     p(99.9999) =    358.089 ms/op
+    p(100.0000) =    358.089 ms/op
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_51, VM 25.51-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=189341359359348 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57548:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: test.FirstBenchmark.readDic
+
+# Run progress: 99.97% complete, ETA 00:00:00
+# Fork: 1 of 1
+objc[48221]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x10b5d14c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10cdc54e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 579.786 ms/op
+# Warmup Iteration   2: 918.141 ms/op
+# Warmup Iteration   3: 392.875 ms/op
+# Warmup Iteration   4: 859.486 ms/op
+# Warmup Iteration   5: 351.315 ms/op
+Iteration   1: 386.183 ms/op
+Iteration   2: 380.950 ms/op
+Iteration   3: 408.012 ms/op
+Iteration   4: 399.968 ms/op
+Iteration   5: 283.887 ms/op
+
+
+Result "test.FirstBenchmark.readDic":
+  N = 5
+  mean =    371.800 ±(99.9%) 193.724 ms/op
+
+  Histogram, ms/op:
+    [200.000, 225.000) = 0 
+    [225.000, 250.000) = 0 
+    [250.000, 275.000) = 0 
+    [275.000, 300.000) = 1 
+    [300.000, 325.000) = 0 
+    [325.000, 350.000) = 0 
+    [350.000, 375.000) = 0 
+    [375.000, 400.000) = 3 
+    [400.000, 425.000) = 1 
+    [425.000, 450.000) = 0 
+    [450.000, 475.000) = 0 
+
+  Percentiles, ms/op:
+      p(0.0000) =    283.887 ms/op
+     p(50.0000) =    386.183 ms/op
+     p(90.0000) =    408.012 ms/op
+     p(95.0000) =    408.012 ms/op
+     p(99.0000) =    408.012 ms/op
+     p(99.9000) =    408.012 ms/op
+     p(99.9900) =    408.012 ms/op
+     p(99.9990) =    408.012 ms/op
+     p(99.9999) =    408.012 ms/op
+    p(100.0000) =    408.012 ms/op
+
+
+# JMH version: 1.20
+# VM version: JDK 1.8.0_51, VM 25.51-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=189341359359348 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57548:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: test.FirstBenchmark.readDicinsert
+
+# Run progress: 99.98% complete, ETA 00:00:00
+# Fork: 1 of 1
+objc[48224]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x1055aa4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x106db74e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 671.341 ms/op
+# Warmup Iteration   2: 1392.850 ms/op
+# Warmup Iteration   3: 310.862 ms/op
+# Warmup Iteration   4: 377.881 ms/op
+# Warmup Iteration   5: 346.815 ms/op
+Iteration   1: 348.099 ms/op
+Iteration   2: 255.135 ms/op
+Iteration   3: 316.432 ms/op
+Iteration   4: 324.569 ms/op
+Iteration   5: 385.339 ms/op
+
+
+Result "test.FirstBenchmark.readDicinsert":
+  N = 5
+  mean =    325.915 ±(99.9%) 183.915 ms/op
+
+  Histogram, ms/op:
+    [200.000, 212.500) = 0 
+    [212.500, 225.000) = 0 
+    [225.000, 237.500) = 0 
+    [237.500, 250.000) = 0 
+    [250.000, 262.500) = 1 
+    [262.500, 275.000) = 0 
+    [275.000, 287.500) = 0 
+    [287.500, 300.000) = 0 
+    [300.000, 312.500) = 0 
+    [312.500, 325.000) = 2 
+    [325.000, 337.500) = 0 
+    [337.500, 350.000) = 1 
+    [350.000, 362.500) = 0 
+    [362.500, 375.000) = 0 
+    [375.000, 387.500) = 1 
+
+  Percentiles, ms/op:
+      p(0.0000) =    255.135 ms/op
+     p(50.0000) =    324.569 ms/op
+     p(90.0000) =    385.339 ms/op
+     p(95.0000) =    385.339 ms/op
+     p(99.0000) =    385.339 ms/op
+     p(99.9000) =    385.339 ms/op
+     p(99.9900) =    385.339 ms/op
+     p(99.9990) =    385.339 ms/op
+     p(99.9999) =    385.339 ms/op
+    p(100.0000) =    385.339 ms/op
+
+
+# Run complete. Total time: 00:01:29
+
+Benchmark                                             Mode  Cnt    Score     Error   Units
+FirstBenchmark.readDic                               thrpt    5    0.003 ±   0.001  ops/ms
+FirstBenchmark.readDicinsert                         thrpt    5    0.004 ±   0.001  ops/ms
+FirstBenchmark.readDic                                avgt    5  311.215 ±  61.742   ms/op
+FirstBenchmark.readDicinsert                          avgt    5  281.272 ±  49.834   ms/op
+FirstBenchmark.readDic                              sample   17  335.097 ±  48.460   ms/op
+FirstBenchmark.readDic:readDic·p0.00                sample       260.571             ms/op
+FirstBenchmark.readDic:readDic·p0.50                sample       353.894             ms/op
+FirstBenchmark.readDic:readDic·p0.90                sample       394.265             ms/op
+FirstBenchmark.readDic:readDic·p0.95                sample       402.653             ms/op
+FirstBenchmark.readDic:readDic·p0.99                sample       402.653             ms/op
+FirstBenchmark.readDic:readDic·p0.999               sample       402.653             ms/op
+FirstBenchmark.readDic:readDic·p0.9999              sample       402.653             ms/op
+FirstBenchmark.readDic:readDic·p1.00                sample       402.653             ms/op
+FirstBenchmark.readDicinsert                        sample   20  275.238 ±  37.784   ms/op
+FirstBenchmark.readDicinsert:readDicinsert·p0.00    sample       234.619             ms/op
+FirstBenchmark.readDicinsert:readDicinsert·p0.50    sample       250.348             ms/op
+FirstBenchmark.readDicinsert:readDicinsert·p0.90    sample       347.446             ms/op
+FirstBenchmark.readDicinsert:readDicinsert·p0.95    sample       357.564             ms/op
+FirstBenchmark.readDicinsert:readDicinsert·p0.99    sample       358.089             ms/op
+FirstBenchmark.readDicinsert:readDicinsert·p0.999   sample       358.089             ms/op
+FirstBenchmark.readDicinsert:readDicinsert·p0.9999  sample       358.089             ms/op
+FirstBenchmark.readDicinsert:readDicinsert·p1.00    sample       358.089             ms/op
+FirstBenchmark.readDic                                  ss    5  371.800 ± 193.724   ms/op
+FirstBenchmark.readDicinsert                            ss    5  325.915 ± 183.915   ms/op

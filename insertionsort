@@ -1,0 +1,242 @@
+objc[47907]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/bin/java (0x1038ee4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1048db4e0). One of the two will be used. Which one is undefined.
+# JMH 1.5.1 (released 1159 days ago, please consider updating!)
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=188264385396843 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56992:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.FirstBenchmark.findAna
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+objc[47908]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x104f794c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1067824e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 0.033 ms/op
+# Warmup Iteration   2: 0.017 ms/op
+# Warmup Iteration   3: 0.015 ms/op
+# Warmup Iteration   4: 0.014 ms/op
+# Warmup Iteration   5: 0.013 ms/op
+Iteration   1: 0.013 ms/op
+Iteration   2: 0.013 ms/op
+Iteration   3: 0.014 ms/op
+Iteration   4: 0.013 ms/op
+Iteration   5: 0.013 ms/op
+
+
+Result: 0.013 ±(99.9%) 0.000 ms/op [Average]
+  Statistics: (min, avg, max) = (0.013, 0.013, 0.014), stdev = 0.000
+  Confidence interval (99.9%): [0.013, 0.014]
+
+
+# JMH 1.5.1 (released 1159 days ago, please consider updating!)
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=188264385396843 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56992:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.FirstBenchmark.readDic
+
+# Run progress: 24.99% complete, ETA 00:00:35
+# Fork: 1 of 1
+objc[47911]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x10c9114c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10c9954e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 1366.336 ms/op
+# Warmup Iteration   2: 334.210 ms/op
+# Warmup Iteration   3: 320.846 ms/op
+# Warmup Iteration   4: 270.084 ms/op
+# Warmup Iteration   5: 304.216 ms/op
+Iteration   1: 301.680 ms/op
+Iteration   2: 282.072 ms/op
+Iteration   3: 281.507 ms/op
+Iteration   4: 283.348 ms/op
+Iteration   5: 256.450 ms/op
+
+
+Result: 281.011 ±(99.9%) 62.009 ms/op [Average]
+  Statistics: (min, avg, max) = (256.450, 281.011, 301.680), stdev = 16.103
+  Confidence interval (99.9%): [219.002, 343.020]
+
+
+# JMH 1.5.1 (released 1159 days ago, please consider updating!)
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=188264385396843 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56992:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: test.FirstBenchmark.findAna
+
+# Run progress: 49.98% complete, ETA 00:00:25
+# Fork: 1 of 1
+objc[47918]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x1026224c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1026a64e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: n = 15726, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 21, 33 ms/op
+# Warmup Iteration   2: n = 15544, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 18558, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 3, 7 ms/op
+# Warmup Iteration   4: n = 18816, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 3, 15 ms/op
+# Warmup Iteration   5: n = 18906, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 2 ms/op
+Iteration   1: n = 18901, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 2 ms/op
+Iteration   2: n = 19187, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   3: n = 18898, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   4: n = 18718, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   5: n = 18757, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+
+Result: 0.013 ±(99.9%) 0.000 ms/op [Average]
+  Statistics: (min, avg, max) = (0.011, 0.013, 1.534), stdev = 0.013
+  Confidence interval (99.9%): [0.013, 0.013]
+  Samples, N = 94461
+        mean =      0.013 ±(99.9%) 0.000 ms/op
+         min =      0.011 ms/op
+  p( 0.0000) =      0.011 ms/op
+  p(50.0000) =      0.012 ms/op
+  p(90.0000) =      0.014 ms/op
+  p(95.0000) =      0.022 ms/op
+  p(99.0000) =      0.027 ms/op
+  p(99.9000) =      0.073 ms/op
+  p(99.9900) =      0.325 ms/op
+  p(99.9990) =      1.534 ms/op
+  p(99.9999) =      1.534 ms/op
+         max =      1.534 ms/op
+
+
+# JMH 1.5.1 (released 1159 days ago, please consider updating!)
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=188264385396843 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56992:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: test.FirstBenchmark.readDic
+
+# Run progress: 74.96% complete, ETA 00:00:12
+# Fork: 1 of 1
+objc[47922]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x100ce74c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x100d6b4e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: n = 1, mean = 1340 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1340, 1340, 1340, 1340, 1340, 1340, 1340, 1340 ms/op
+# Warmup Iteration   2: n = 4, mean = 331 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 287, 335, 366, 366, 366, 366, 366, 366 ms/op
+# Warmup Iteration   3: n = 4, mean = 305 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 246, 306, 361, 361, 361, 361, 361, 361 ms/op
+# Warmup Iteration   4: n = 4, mean = 271 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 238, 268, 311, 311, 311, 311, 311, 311 ms/op
+# Warmup Iteration   5: n = 4, mean = 289 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 230, 289, 347, 347, 347, 347, 347, 347 ms/op
+Iteration   1: n = 4, mean = 290 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 249, 282, 345, 345, 345, 345, 345, 345 ms/op
+Iteration   2: n = 4, mean = 273 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 236, 270, 317, 317, 317, 317, 317, 317 ms/op
+Iteration   3: n = 4, mean = 271 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 235, 250, 349, 349, 349, 349, 349, 349 ms/op
+Iteration   4: n = 4, mean = 262 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 231, 263, 292, 292, 292, 292, 292, 292 ms/op
+Iteration   5: n = 4, mean = 271 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 234, 264, 320, 320, 320, 320, 320, 320 ms/op
+
+
+Result: 273.416 ±(99.9%) 33.932 ms/op [Average]
+  Statistics: (min, avg, max) = (231.211, 273.416, 349.176), stdev = 39.076
+  Confidence interval (99.9%): [239.485, 307.348]
+  Samples, N = 20
+        mean =    273.416 ±(99.9%) 33.932 ms/op
+         min =    231.211 ms/op
+  p( 0.0000) =    231.211 ms/op
+  p(50.0000) =    260.964 ms/op
+  p(90.0000) =    342.517 ms/op
+  p(95.0000) =    348.966 ms/op
+  p(99.0000) =    349.176 ms/op
+  p(99.9000) =    349.176 ms/op
+  p(99.9900) =    349.176 ms/op
+  p(99.9990) =    349.176 ms/op
+  p(99.9999) =    349.176 ms/op
+         max =    349.176 ms/op
+
+
+# JMH 1.5.1 (released 1159 days ago, please consider updating!)
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=188264385396843 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56992:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: test.FirstBenchmark.findAna
+
+# Run progress: 99.95% complete, ETA 00:00:00
+# Fork: 1 of 1
+objc[47925]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x107e7b4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x107eff4e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 2.778 ms
+# Warmup Iteration   2: 0.318 ms
+# Warmup Iteration   3: 0.419 ms
+# Warmup Iteration   4: 0.281 ms
+# Warmup Iteration   5: 0.239 ms
+Iteration   1: 0.239 ms
+Iteration   2: 0.259 ms
+Iteration   3: 0.249 ms
+Iteration   4: 0.210 ms
+Iteration   5: 0.243 ms
+
+
+Result: 0.240 ±(99.9%) 0.072 ms [Average]
+  Statistics: (min, avg, max) = (0.210, 0.240, 0.259), stdev = 0.019
+  Confidence interval (99.9%): [0.168, 0.312]
+  Samples, N = 5
+        mean =      0.240 ±(99.9%) 0.072 ms
+         min =      0.210 ms
+  p( 0.0000) =      0.210 ms
+  p(50.0000) =      0.243 ms
+  p(90.0000) =      0.259 ms
+  p(95.0000) =      0.259 ms
+  p(99.0000) =      0.259 ms
+  p(99.9000) =      0.259 ms
+  p(99.9900) =      0.259 ms
+  p(99.9990) =      0.259 ms
+  p(99.9999) =      0.259 ms
+         max =      0.259 ms
+
+
+# JMH 1.5.1 (released 1159 days ago, please consider updating!)
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java
+# VM options: -Dvisualvm.id=188264385396843 -javaagent:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56992:/Users/seb/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.4203.550/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: test.FirstBenchmark.readDic
+
+# Run progress: 99.98% complete, ETA 00:00:00
+# Fork: 1 of 1
+objc[47926]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/bin/java (0x102b744c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1043824e0). One of the two will be used. Which one is undefined.
+# Warmup Iteration   1: 1346.543 ms
+# Warmup Iteration   2: 284.764 ms
+# Warmup Iteration   3: 368.188 ms
+# Warmup Iteration   4: 336.498 ms
+# Warmup Iteration   5: 361.268 ms
+Iteration   1: 237.911 ms
+Iteration   2: 314.408 ms
+Iteration   3: 318.431 ms
+Iteration   4: 383.750 ms
+Iteration   5: 240.752 ms
+
+
+Result: 299.051 ±(99.9%) 235.191 ms [Average]
+  Statistics: (min, avg, max) = (237.911, 299.051, 383.750), stdev = 61.078
+  Confidence interval (99.9%): [63.860, 534.241]
+  Samples, N = 5
+        mean =    299.051 ±(99.9%) 235.191 ms
+         min =    237.911 ms
+  p( 0.0000) =    237.911 ms
+  p(50.0000) =    314.408 ms
+  p(90.0000) =    383.750 ms
+  p(95.0000) =    383.750 ms
+  p(99.0000) =    383.750 ms
+  p(99.9000) =    383.750 ms
+  p(99.9900) =    383.750 ms
+  p(99.9990) =    383.750 ms
+  p(99.9999) =    383.750 ms
+         max =    383.750 ms
+
+
+# Run complete. Total time: 00:00:56
+
+Benchmark                 Mode    Cnt    Score     Error  Units
+FirstBenchmark.findAna    avgt      5    0.013 ±   0.000  ms/op
+FirstBenchmark.readDic    avgt      5  281.011 ±  62.009  ms/op
+FirstBenchmark.findAna  sample  94461    0.013 ±   0.000  ms/op
+FirstBenchmark.readDic  sample     20  273.416 ±  33.932  ms/op
+FirstBenchmark.findAna      ss      5    0.240 ±   0.072     ms
+FirstBenchmark.readDic      ss      5  299.051 ± 235.191     ms
